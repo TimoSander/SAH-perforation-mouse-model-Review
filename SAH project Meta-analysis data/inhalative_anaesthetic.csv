@@ -1,0 +1,18 @@
+Var1,Freq,Substance,Induction,Maintenance,O2/N2-Mixture,Flow
+,6,,,,,
+0,21,,,,,
+1.4–2%  isoflurane  in  40%    O2  and 60%  N2,1,Isoflurane,1.4-2%,,40/60,
+3% and 1.5% isoflurane inhalation,1,Isoflurane,3.00%,1.50%,,
+4% isoflurane in a nitrous oxide/oxygen mixture (70/30) and maintained by 2% isoflurane administered through a facemask,1,Isoflurane,4.00%,2.00%,30/70,
+isoflurane,1,Isoflurane,,,,
+Isoflurane,1,Isoflurane,,,,
+"Isoflurane (2% induction, 1.5% maintenance)",1,Isoflurane,2.00%,1.50%,,
+"isoflurane (4 vol% induction, 2 vol% maintenance)",1,Isoflurane,4.00%,2.00%,,
+"isoflurane (4% induction, 1.5% maintenance)",1,Isoflurane,2.00%,1.50%,,
+isoflurane 3% induction and 1.5% maintenance ,1,Isoflurane,3.00%,1.50%,,
+isoflurane 5% induction and 1.5-2% maintain,1,Isoflurane,5.00%,1.5-2%,,
+isoflurane 5% induction and 1.5% maintain,1,Isoflurane,5.00%,1.50%,,
+"isoflurane 5% induction, 1.5% maintenance",1,Isoflurane,5.00%,1.50%,,
+isofulrane 3-4% induction 1-1.5% maintain,1,Isoflurane,3-4%,1-1.5%,,
+lsoflurane 5% induction and  1.5% maintenance,1,Isoflurane,5.00%,1.50%,,
+"mice were premedicated with butorphanol (5 mg/kg, subcutaneous) and anesthetized with isoflurane (2% induction in 2.0 L/min; 1.5% maintenance in 1.0 L/min of 50% O2 in air",1,Isoflurane,2.00%,1.50%,50/50,2 L/min
