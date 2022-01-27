@@ -1,0 +1,29 @@
+Parameter,Articles with reporting,Total articles,Reporting_ratio,Percentage of reporting,CAVE
+Mouse strain,42,42,1,100.00%,
+Mouse sex,42,42,1,100.00%,"one article only reported the use of ""male and female"" mice, but not the excact numbers of them"
+Injective anaesthetic,23,23,1,100.00%,of 23 articles with inhalative anaesthesia; nochmal checken
+Inhalative anaesthetic,15,15,1,100.00%,of 15 articles with inhalative anaesthesia
+Filament entry point,40,42,0.952380952380952,95.24%,
+Type of anaesthesia,39,42,0.928571428571429,92.86%,
+Number of mice,39,42,0.928571428571429,92.86%,at least for one experiment of one outcome
+Filament diameter,38,42,0.904761904761905,90.48%,
+Perforation location,36,42,0.857142857142857,85.71%,
+Time after SAH of data presented,36,42,0.857142857142857,85.71%,at least for one experiment of one outcome
+Mouse weight,32,42,0.761904761904762,76.19%,
+Mouse age,28,42,0.666666666666667,66.67%,plus four that only reported “adult”
+Filament material,27,42,0.642857142857143,64.29%,
+Free access to food and water,22,42,0.523809523809524,52.38%,
+Filament tip texture,17,42,0.404761904761905,40.48%,
+Controlled temperature,16,42,0.380952380952381,38.10%,
+Twelve-hour light-dark cycle,16,42,0.380952380952381,38.10%,
+Controlled humidity,12,42,0.285714285714286,28.57%,
+Intubation of mice,11,42,0.261904761904762,26.19%,
+Montitoring of ICP,11,42,0.261904761904762,26.19%,
+Postsurgical stress-management ,10,42,0.238095238095238,23.81%,
+Inhalative anesthesia O2/N2-ratio,3,15,0.2,20.00%,of 15 articles with inhalative anaesthesia
+Exact temperature,8,42,0.19047619047619,19.05%,
+Single vs. group cage,6,42,0.142857142857143,14.29%,
+Exact humidity,4,42,0.095238095238095,9.52%,
+Filament length,3,42,0.071428571428572,7.14%,
+Inhalative anesthesia flow,1,15,0.066666666666667,6.67%,of 15 articles with inhalative anaesthesia
+Duration of SAH surgery,2,42,0.047619047619048,4.76%,

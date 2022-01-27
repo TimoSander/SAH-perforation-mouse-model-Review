@@ -1,0 +1,35 @@
+StudyIdStr,Experiment,NumberOfAnimals,Time,Average,Vehicle.control.,ModelLabel,Which.type.of.outcome.was.assessed.,Vehicle_reconciled
+11660f81-c343-4396-a097-74ca3430d6fa,A,32,3,15.63,,SAH,Mortality rate (%),
+11660f81-c343-4396-a097-74ca3430d6fa,B,9,2,11.1,DMSO,SAH,Mortality rate (%),
+11660f81-c343-4396-a097-74ca3430d6fa,vehicle reconciliation,32,3,15.63,,SAH,Mortality rate (%),no vehicle
+11660f81-c343-4396-a097-74ca3430d6fa,vehicle reconciliation,9,2,11.1,DMSO,SAH,Mortality rate (%),vehicle
+2ea6da77-9ff3-41a6-9ad5-a46de336416b,A,12,1,8.33333333333333,,SAH,Mortality rate (%),
+2ea6da77-9ff3-41a6-9ad5-a46de336416b,A,24,1,12.5,1% alcohol,SAH,Mortality rate (%),
+2ea6da77-9ff3-41a6-9ad5-a46de336416b,vehicle reconciliation,12,1,8.33333333333333,,SAH,Mortality rate (%),no vehicle
+2ea6da77-9ff3-41a6-9ad5-a46de336416b,vehicle reconciliation,24,1,12.5,1% alcohol,SAH,Mortality rate (%),vehicle
+61702aff-9b39-42fe-8c00-c62c2bff42ae,B,94,0.020833333333333,6.38297872340426,,SAH,Mortality rate (%),
+61702aff-9b39-42fe-8c00-c62c2bff42ae,B,38,1,21.0526315789474,"(distilled water, dimethyl sulfoxide, and polyethylene glycol 300=1:1:1, v/v ",SAH,Mortality rate (%),
+61702aff-9b39-42fe-8c00-c62c2bff42ae,B,10,2,40,"(distilled water, dimethyl sulfoxide, and polyethylene glycol 300=1:1:1, v/v ",SAH,Mortality rate (%),
+61702aff-9b39-42fe-8c00-c62c2bff42ae,C,31,0.020833333333333,0,,SAH,Mortality rate (%),
+61702aff-9b39-42fe-8c00-c62c2bff42ae,C,16,1,12.5,"(distilled water, dimethyl sulfoxide, and polyethylene glycol 300=1:1:1, v/v ",SAH,Mortality rate (%),
+61702aff-9b39-42fe-8c00-c62c2bff42ae,vehicle reconciliation,54,1,18.5185185185185,"(distilled water, dimethyl sulfoxide, and polyethylene glycol 300=1:1:1, v/v ",SAH,Mortality rate (%),vehicle
+7e7d3286-31d1-4376-8373-8445a381b577,A,43,3,18.6046511627907,,SAH,Mortality rate (%),
+7e7d3286-31d1-4376-8373-8445a381b577,B,14,1,14.2857142857143,Saline,SAH,Mortality rate (%),
+7e7d3286-31d1-4376-8373-8445a381b577,C,15,1,20,Saline,SAH,Mortality rate (%),
+7e7d3286-31d1-4376-8373-8445a381b577,vehicle reconciliation,42,3,18.6046511627907,,SAH,Mortality rate (%),no vehicle
+7e7d3286-31d1-4376-8373-8445a381b577,vehicle reconciliation,29,1,17.2413793103448,Saline,SAH,Mortality rate (%),vehicle
+d9b32b94-334f-4bf7-bf75-2b74b39c4d75,A,15,3,20,,SAH,Mortality rate (%),
+d9b32b94-334f-4bf7-bf75-2b74b39c4d75,B,27,2,22.2222222222222,,SAH,Mortality rate (%),
+d9b32b94-334f-4bf7-bf75-2b74b39c4d75,B,25,2,24,NaCl 0.9% (100 µL per 10 g of body weight),SAH,Mortality rate (%),
+d9b32b94-334f-4bf7-bf75-2b74b39c4d75,vehicle reconciliation,42,3,21.4285714285714,,SAH,Mortality rate (%),no vehicle
+d9b32b94-334f-4bf7-bf75-2b74b39c4d75,vehicle reconciliation,25,2,24,NaCl 0.9% (100 µL per 10 g of body weight),SAH,Mortality rate (%),vehicle
+ef45a356-7026-45c3-ab9c-6d94465bb727,A,7,0.125,14.2857142857143,,SAH,Mortality rate (%),
+ef45a356-7026-45c3-ab9c-6d94465bb727,A,6,0.25,0,,SAH,Mortality rate (%),
+ef45a356-7026-45c3-ab9c-6d94465bb727,A,7,0.5,14.2857142857143,,SAH,Mortality rate (%),
+ef45a356-7026-45c3-ab9c-6d94465bb727,A,15,1,20,,SAH,Mortality rate (%),
+ef45a356-7026-45c3-ab9c-6d94465bb727,A,6,2,0,,SAH,Mortality rate (%),
+ef45a356-7026-45c3-ab9c-6d94465bb727,A,7,3,14.2857142857143,,SAH,Mortality rate (%),
+ef45a356-7026-45c3-ab9c-6d94465bb727,B,42,NA,19.047619047619,corn oil,SAH,Mortality rate (%),
+ef45a356-7026-45c3-ab9c-6d94465bb727,C,21,1,14.2857142857143,corn oil,SAH,Mortality rate (%),
+ef45a356-7026-45c3-ab9c-6d94465bb727,vehicle reconciliation,15,1,20,,SAH,Mortality rate (%),no vehicle
+ef45a356-7026-45c3-ab9c-6d94465bb727,vehicle reconciliation,63,1,17.4603174603174,corn oil,SAH,Mortality rate (%),vehicle
