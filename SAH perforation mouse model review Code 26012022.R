@@ -872,9 +872,9 @@ colnames(MMAP1R)[65] <- paste("first_author_year")
 colnames(MMAP1R)[c(62,6)] <- paste(c("cases","total"))
 
 # Drawing and saving forest plot:
-pdf(file = "SAH_mortality_forest.pdf", width = 10, height = 15)
+pdf(file = "SAH_mortality_forest 23032022.pdf", width = 10, height = 15)
 
-pesMMAP.summary=metaprop(cases, total, first_author_year, data=MMAP1R, sm="PLO")
+pesMMAP.summary=metaprop(cases, total, first_author_year, data=MMAP1R, sm="PLO", method.tau = "DL")
 forest(pesMMAP.summary,
        sortvar = TE,
        fixed = FALSE,
@@ -1222,15 +1222,15 @@ predict(GMAP1RwoMods)
 pesGMAP.summary <- metamean(mean = Average, sd = SD, n = rep(1,16), studlab = first_author_year, data=GMAP1R, level = 0.95, method.tau = "DL", sm = "MRAW", method.ci = "z")
 pesGMAP.summary
 
-pdf(file = "SAH severity score forest WRONG TOTALS.pdf", width = 10, height = 7.5)
+pdf(file = "SAH severity score forest WRONG TOTALS 01022022.pdf", width = 10, height = 7.5)
 
 forest(pesGMAP.summary,
        fixed = FALSE,
        xlab = "SAH severity score", ff.xlab = "bold", xlim = c(0,18), at = seq(0,18,3),
        print.tau2.ci = T, print.I2.ci = T,
-       digits = 3, digits.pval.Q = 3, digits.I2 = 1,
+       digits = 1, digits.pval.Q = 3, digits.I2 = 1,
        fs.hetstat = 12,
-       addrows = 3)
+       addrows = 3, digits.mean = 1, digits.sd = 1, digits.addcols = 1,  rightcols = c("ci", "w.random"))
 
 dev.off()
 
@@ -1347,11 +1347,13 @@ MMAP_Time_Mortality$vertical_position <- c(0.5,0.3,0.1)
 MMAP_Time_Mortality$labels <- c("1 day after SAH", "2 days after SAH", "3 days after SAH")
 MMAP_Time_Mortality$articles <- c(nrow(MMAP_1day_reconciled), nrow(MMAP_2day_reconciled), nrow(MMAP_3day_reconciled))
 MMAP_Time_Mortality$estimate <- round (MMAP_Time_Mortality$estimate, 1)
+MMAP_Time_Mortality$llci <- round(MMAP_Time_Mortality$llci, 1)
+MMAP_Time_Mortality$ulci <- round(MMAP_Time_Mortality$ulci, 1)
 MMAP_Time_Mortality$description <- paste(MMAP_Time_Mortality$estimate, " [", MMAP_Time_Mortality$llci, ",", MMAP_Time_Mortality$ulci, "]", sep = "")
 
 
 ## Plotting and saving as pdf:
-pdf(file = "Mouse mortality depending on the time after SAH.pdf", width = 10, height = 7.5)
+pdf(file = "Mouse mortality depending on time after SAH 02022022.pdf", width = 10, height = 7.5)
 
 plot.new()
 par(mar=c(5,8,2,1))
